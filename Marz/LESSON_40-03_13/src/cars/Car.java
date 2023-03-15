@@ -34,14 +34,14 @@ public abstract class Car {
         System.out.println("моя скрость "+speed);
     }
 
-    public void Stop() {
+    public void stop() {
         System.out.println("остановился");
         System.out.println("моя скрость "+speed);
 
 
     }public void speedUp () {
         System.out.println("Увеличиваю скрость ");
-        System.out.println("моя скрость "+speed + 10);
+        System.out.println("моя скрость "+(speed + 10));
 
 
 

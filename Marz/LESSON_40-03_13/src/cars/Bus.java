@@ -34,7 +34,7 @@ public class Bus extends Car{
         System.out.println("моя скрость "+speed);
     }
 
-    public void Stop() {
+    public void stop() {
         System.out.println("остановился вышли пасажиры");
         System.out.println(" Осталось пасажиров "+ (seats-2));
         System.out.println("моя скрость "+speed);
