@@ -33,7 +33,7 @@ public class Bus extends Car{
         System.out.println("еду по дороге с пасажирами " + seats);
         System.out.println("моя скрость "+speed);
     }
-
+    @Override
     public void stop() {
         System.out.println("остановился вышли пасажиры");
         System.out.println(" Осталось пасажиров "+ (seats-2));
