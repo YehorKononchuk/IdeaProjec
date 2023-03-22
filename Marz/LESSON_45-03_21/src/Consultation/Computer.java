@@ -21,12 +21,12 @@ public class Computer implements Comparable <Computer>{
 
     @Override
     public String toString() {
-        return "Computer{" +
+        return "\nComputer{" +
                 "type='" + type + '\'' +
                 ", operate_memory=" + operate_memory +
                 ", hrd_disk_size=" + hrd_disk_size +
                 ", operate_system='" + operate_system + '\'' +
-                '}'+'\n';
+                '}';
     }
 
 

@@ -26,6 +26,6 @@ public class Fruits implements Comparable<Fruits>{
     @Override
     public int compareTo(Fruits other) {
 
-        return CharSequence.compare(this.country, other.country);
+        return Double.compare(this.weight, other.weight);
     }
 }
