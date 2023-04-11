@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="LESSON_48-03_24" options="--add-exports java.base/java=ALL-UNNAMED" />
+      <module name="LESSON_51-04_03" options="--add-exports jdk.internal.le/jdk.internal.org.jline.reader.impl=ALL-UNNAMED --add-exports java.base/java=ALL-UNNAMED" />
+    </option>
+  </component>
+</project>
